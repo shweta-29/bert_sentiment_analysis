@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "bert-sentiment-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Shweta Yadav <shweta.yadav2092@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+torch = ">=2.7.1,<3.0.0"
+pandas = ">=2.3.0,<3.0.0"
+scikit-learn = ">=1.7.0,<2.0.0"
+certifi = "^2025.6.15"
+transformers = "^4.52.4"
+python-certifi-win32 = "^1.6.1"
+pip-system-certs = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
